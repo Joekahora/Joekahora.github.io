@@ -5,6 +5,7 @@ html, body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color: #222;
+    background-color: rosybrown;
 }
 .navbar{
     padding: .8rem;
@@ -14,4 +15,9 @@ html, body{
 }
 .nav-link{
     font-size: 1.1em !important;
+}
+.img-thumbnail{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
 }
