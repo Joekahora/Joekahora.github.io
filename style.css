@@ -5,7 +5,7 @@ html, body{
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color: #222;
-    background-color: rosybrown;
+    
 }
 .navbar{
     padding: .8rem;
@@ -62,4 +62,10 @@ html, body{
 }
 .right{
     left: 50%;
+}
+.right::after{
+    left: -10px;
+}
+.text{
+    padding: 15px 15px 15px 17px;
 }
