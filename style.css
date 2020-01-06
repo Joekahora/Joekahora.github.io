@@ -21,53 +21,16 @@ html, body{
     height: 25%;
     width: 25%;
 }
+/* creating the vertical ruler for the timeline */
 .skills{
     position: relative;
-    width: 600px;
-    margin: 150px auto 0 auto 0;
 }
-
-.skills ::after{
-    content: '';
+::before{
+    content: "";
+    background: lightgray;
+    width: 5px;
+    height: 50%;
     position: absolute;
-    width: 6px;
-    background-color: #f5f5f5;
-    top: 0%;
-    bottom: 0%;
     left: 50%;
-    right: -3px;
-}
-.text-wrapper{
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50px;
-    box-sizing: border-box;
-    margin: 50px 0;
-}
-
-.text-wrapper::after{
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -10px;
-    top: 15px;
-    background-color: #8125E2;
-    border-radius: 50%;
-    z-index: 1;
-}
-.left{
-    left: 0;
-}
-.right{
-    left: 50%;
-}
-.right::after{
-    left: -10px;
-}
-.text{
-    padding: 15px 15px 15px 17px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
+    transform: translateX(-50);
 }
