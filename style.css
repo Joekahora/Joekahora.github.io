@@ -6,6 +6,7 @@ html, body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     color: #222;
+    /* background-color: #b3b305; */
     
     
 }
@@ -21,10 +22,18 @@ html, body{
 .img-thumbnail{
     border-radius: 50%;
     height: 40%;
-    width: 30%;
+    width: 20%;
 }
 .display-1{
-    text-align: center;   
+    position: relative;
+    text-align: center;
+    animation: aboutme;
+    animation-duration: 3s;   
+    animation-fill-mode: forwards;
+}
+@keyframes aboutme{
+    0%{right: -500px;}
+    100%{right: 0;}
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -43,7 +52,7 @@ html, body{
     content: "";
     position: absolute;
     width: 6px;
-    background-color: #f5f5f5;
+    background-color: #00db07;
     top: 0;
     bottom: 0;
     left: 50%;
