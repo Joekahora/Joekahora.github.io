@@ -24,6 +24,13 @@ html, body{
     height: 40%;
     width: 20%;
 }
+.about{
+    position: relative;
+    background-attachment: fixed;
+    background-image: url(../joekahoraio/img/tokyo.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .display-1{
     position: relative;
     text-align: center;
@@ -31,9 +38,28 @@ html, body{
     animation-duration: 3s;   
     animation-fill-mode: forwards;
 }
-@keyframes aboutme{
-    0%{right: -500px;}
-    100%{right: 0;}
+@keyframes aboutme {
+    0% {
+        right: -500px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+.about p{
+    animation: aboutmep;
+    animation-delay: 4s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes aboutmep{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 /* The actual timeline (the vertical ruler) */
