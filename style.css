@@ -18,7 +18,7 @@ html, body{
 .about{
     position: relative;
     background-attachment: fixed;
-    background-image: url(../joekahoraio/img/tokyo.gif);
+    background-image: url(../img/tokyo.gif);
     background-size: contain;
     background-repeat: repeat;
 }
