@@ -17,11 +17,6 @@ html, body{
 }
 
 .about{
-    /* position: relative;
-    background-attachment: fixed;
-    background-image: url(../img/tokyo.gif);
-    background-size: contain;
-    background-repeat: repeat; */
     background-color: #000;
 }
 
@@ -44,16 +39,11 @@ html, body{
         right: 0;
     }
 }
-.image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    padding: auto;
-}
 .para{
-    position: relative;
-    text-align: justify;
-    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 30px;
     padding-bottom: 50px ;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
@@ -64,6 +54,7 @@ html, body{
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+
 @keyframes aboutmep{
     0%{
         opacity: 0;
