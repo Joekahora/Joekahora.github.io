@@ -2,7 +2,8 @@
 
 html, body{
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;  
+    background-color: #000; 
     
 }
 .navbar{
@@ -16,11 +17,12 @@ html, body{
 }
 
 .about{
-    position: relative;
+    /* position: relative;
     background-attachment: fixed;
     background-image: url(../img/tokyo.gif);
     background-size: contain;
-    background-repeat: repeat;
+    background-repeat: repeat; */
+    background-color: #000;
 }
 
 .aboutdisplay-1{
