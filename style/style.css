@@ -10,14 +10,11 @@ html, body{
     padding: .8rem;
 }
 .navbar-nav li{
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .nav-link{
     font-size: 1.1em !important;
-}
-
-.about{
-    background-color: #000;
+   
 }
 
 .aboutdisplay-1{
@@ -39,12 +36,33 @@ html, body{
         right: 0;
     }
 }
+.landing-page{
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    animation: landingpage;
+    animation-delay: 0s;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+.landing-page p{
+    font-size: 50px;
+}
+.landing-page span{
+    padding-left: 500px;
+}
+@keyframes landingpage{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 .para{
     display: flex;
     justify-content: space-between;
-    align-items: center;    
-    padding: 30px;
-    padding-bottom: 50px ;
+    align-content: space-between;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
     font-size: 30px;
@@ -53,6 +71,9 @@ html, body{
     animation-delay: 0s;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+}
+.para p{
+    padding-left: 100px;
 }
 
 @keyframes aboutmep{
