@@ -11,6 +11,17 @@
 +  ### Code Editor or an IDE
 +  ### Bootstrap CSS 
 
+# INSTALLATION
+### Make sure you have git installed on windows and in the terminal run 
+``` 
+ cd Desktop/
+ mkdir portofolio && cd portofolio
+ git clone [https://github.com/Joekahora/Joekahora.github.io.git]
+ code .
+
+
+```
+
 
 # PROJECT LINK
 ### [https://joekahora.github.io./#projects]
