@@ -1,5 +1,19 @@
-"# Joekahora.github.io" 
-"# AUTHORS NAME: Joel Kahora" 
-"# PROJECT DESCRIPTION: This my web portofolio containing my projects and interests" 
-"# SETUP REQUIREMENTS: one needs an index.html file and a style.css file"
-"# PROJECT LINK: https://joekahora.github.io./"
+# PROJECT NAME
+### Joel Kahora portofolio
+
+# AUTHOR
+### Joel Kahora
+
+# PROJECT DESCRIPTION
+### This is My Web portofolio Showcasing my web development skill, Projects and Interests
+
+# REQUIREMENTS
++  ### Code Editor or an IDE
++  ### Bootstrap CSS 
+
+
+# PROJECT LINK
+### [https://joekahora.github.io./#projects]
+
+# LICENCSE
+### The project is licensed under [MIT]
