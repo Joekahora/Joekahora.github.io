@@ -21,10 +21,15 @@
 
 
 ```
+# KNOWN BUGS
+### There are currently no Known bugs
+
+# CONTACT
+### You can Reach me via my gmail account gachau.joel@gmail.com
 
 
 # PROJECT LINK
-### [https://joekahora.github.io./#projects]
+### [https://joekahora.github.io./]
 
 # LICENCSE
-### The project is licensed under [MIT]
+### The project is licensed under [GNU]
