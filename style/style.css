@@ -32,12 +32,12 @@ html, body{
     animation-duration: 15s;
     animation-fill-mode: forwards;
 }
-.header-text{
+/* .header-text{
     font-size: 40px;
 }
 .secondary-text {
     font-size: 20px;   
-}
+} */
 
 .aboutdisplay-1{
     position: relative;
