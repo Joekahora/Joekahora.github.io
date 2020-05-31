@@ -9,11 +9,12 @@
 ### This is My Web portofolio Showcasing my web development skill, Projects and Interests
 
 # REQUIREMENTS
-+  ### Code Editor or an IDE
-+  ### Bootstrap CSS 
++  ##### Code Editor or an IDE
++  ##### Bootstrap CSS 
 
 # INSTALLATION
 ### Make sure you have git installed on windows and in the terminal run 
+
 ``` 
  cd Desktop/
  mkdir portofolio && cd portofolio
@@ -30,7 +31,7 @@
 
 
 # PROJECT LINK
-### [https://joekahora.github.io./]
+### https://joekahora.github.io./
 
 # LICENCSE
 ### The project is licensed under [GNU]
