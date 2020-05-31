@@ -32,13 +32,6 @@ html, body{
     animation-duration: 15s;
     animation-fill-mode: forwards;
 }
-/* .header-text{
-    font-size: 40px;
-}
-.secondary-text {
-    font-size: 20px;   
-} */
-
 .aboutdisplay-1{
     position: relative;
     margin-top: 50px;
@@ -89,69 +82,3 @@ html, body{
         opacity: 1;
     }
 }
-/* The actual timeline (the vertical ruler) */
-/* .skills,
-.hobbies,
-.job,
-.education{
-    position: relative;
-    width: 600px;
-    margin: 150px auto 0 auto;
-}
-.hobbies::after,
-.job::after,
-.education::after,
-.skills::after{
-    content: "";
-    position: absolute;
-    width: 6px;
-    background-color: #00db07;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-.text-wrapper{
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-    box-sizing: border-box;
-    margin: 50px 0;
-}
-.text-wrapper::after{
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -10px;
-    background-color: #8125E2;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-.left{
-    left: 0;
-}
-.right{
-    left: 50%;
-}
-.right::after{
-    left: -10px;
-}
-.text{
-    padding: 15px 15px 15px 17px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-}
-.text h2{
-    font-size: 14px;
-    color: #fff;
-    letter-spacing: 1px;
-}
-.text p{
-    color: chartreuse;
-    font-weight: 300;
-    font-size: 18px;
-    margin-top: 2px;
-} */
