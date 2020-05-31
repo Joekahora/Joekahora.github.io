@@ -1,3 +1,4 @@
+[![codebeat badge](https://codebeat.co/badges/62521c95-cbb8-4c6f-a939-1717fdacecf6)](https://codebeat.co/projects/github-com-joekahora-joekahora-github-io-master)
 # PROJECT NAME
 ### Joel Kahora portofolio
 
