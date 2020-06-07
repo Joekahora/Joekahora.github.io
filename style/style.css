@@ -27,58 +27,29 @@ html, body{
     line-height: 0.7;
     padding-top: 200px;
     padding-bottom: 230px;
-    animation: landingpage;
-    animation-delay: 0s;
-    animation-duration: 15s;
-    animation-fill-mode: forwards;
+
 }
 .aboutdisplay-1{
     position: relative;
     margin-top: 50px;
     color: #f5f5f5;
     text-align: center;
-    animation: aboutme;
-    animation-duration: 3s;   
-    animation-fill-mode: forwards;
 }
-
-@keyframes aboutme {
-    0% {
-        right: -500px;
-    }
-
-    100% {
-        right: 0;
-    }
-}
-
 .para{
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     font-size: 25px;
     color: #fcfcfc;
-    animation: aboutmep;
-    animation-delay: 0s;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
 }
 
-
-@keyframes landingpage{
-    0%{
-        opacity: 0;
+@media only screen and (max-width: 500px){
+    .para{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
     }
-    100%{
-        opacity: 1;
-    }
-}
-
-@keyframes aboutmep{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+    /* .para img{
+        padding-left: 50px;
+    } */
 }
