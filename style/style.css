@@ -47,9 +47,11 @@ html, body{
     .para{
         display: flex;
         flex-direction: column;
-        padding-left: 50px;
     }
-    /* .para img{
-        padding-left: 50px;
-    } */
+    .para img{
+        margin: 25px;
+    }
+    .para p{
+        font-size: 16px;
+    }
 }
